@@ -1,12 +1,12 @@
 module.exports.foodHome = function(req,res){
 
-    res.render('index',{title:'Homepage'});
+    res.render('foodHome',{title:'Home'});
 } 
 
 
 module.exports.breakfast = function(req,res){
 
-    res.render('index',{title:'Breakfast'});
+    res.render('breakfast',{title:'Breakfast',description:'Please Order from our selection of Eggs Benedict, Omelletes, Classic Eggs, Waffles or Pancakes'});
 }
 
 module.exports.lunch = function(req,res){
