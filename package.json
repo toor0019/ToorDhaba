@@ -5,17 +5,18 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "engines":{
-    "nodes":"~10.15.0",
-    "npm":"~6.4.1"
-  }
-  ,
+  "engines": {
+    "nodes": "~10.15.0",
+    "npm": "~6.4.1"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "mongoose": "^5.4.17",
+    "morgan": "~1.9.0",
+    "readline": "^1.3.0"
   }
 }
